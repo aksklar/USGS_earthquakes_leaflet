@@ -1,1 +1,3 @@
-# USGS_earthquakes_leaflet
+# USGS Earthquakes Leaflet
+
+The permise of this project was to create visualizations that represents earthquake data from the United States Geological Survey (USGS) with the use of JavaScript and Leaflet.  In order to acheive this project, I started with collecting seven days worth of earthquake data from USGS's GeoJSON feed page.  With the data, I created a map using Leaflet that plots all the earthquakes from the GeoJSON data based on its longitude and latitude.  The original map represents the magnitude of the earthquake with size and color.  The bigger and redder the plot, the higher the magnitude.  Also, popups were included in the map in order to provide additional information about the earthquake when the user clicked on the marker.  To illustrate the relationship between magnitude of earthquakes and tectonic plates, a map layer was created.
